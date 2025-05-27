@@ -1,5 +1,6 @@
 
 public class Car {
+
     private String name;
     private int year;
     private String color;
@@ -37,5 +38,4 @@ public class Car {
         System.out.println("Это моя машына: "+ myCar.getName() + ", " + myCar.getYear() + " года выпуска. Цвет " + myCar.getColor());
         System.out.println("Это моя малыха: " + myCar.toString());
     }
-
 }
